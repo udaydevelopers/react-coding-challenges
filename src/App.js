@@ -1,23 +1,18 @@
-import logo from './logo.svg';
+
 import './App.css';
+
+import  DigitalClock from './DigitalClock';
+//const texts = ["Hello", "World", "React"]; // for Roating text props
+// const images = [
+//   'https://via.placeholder.com/400x200?text=Slide%201',
+//   'https://via.placeholder.com/400x200?text=Slide%202',
+//   'https://via.placeholder.com/400x200?text=Slide%203',
+// ]; // challes 7 props (gallery)
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <DigitalClock />
     </div>
   );
 }
